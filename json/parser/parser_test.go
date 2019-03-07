@@ -307,7 +307,7 @@ func TestObjectKey(t *testing.T) {
 	}
 }
 
-// Official HCL tests
+// TestParse: Official HCL tests
 func TestParse(t *testing.T) {
 	cases := []struct {
 		Name string

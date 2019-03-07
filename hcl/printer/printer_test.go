@@ -148,7 +148,7 @@ func lineAt(text []byte, offs int) []byte {
 	return text[offs:i]
 }
 
-// TestFormatParsable ensures that the output of Format() is can be parsed again.
+// TestFormatValidOutput ensures that the output of Format() is can be parsed again.
 func TestFormatValidOutput(t *testing.T) {
 	cases := []string{
 		"#\x00",
